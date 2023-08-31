@@ -1,0 +1,61 @@
+body {
+    background-color: #fde0ea;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url('heart.png');
+}
+
+.card {
+    border: rgb(255, 164, 179) solid 5px;
+    background-color: #ffd4e5;
+    border-radius: 10px;
+    box-shadow: 10px 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+    position: relative; /* Needed for absolute positioning */
+}
+
+.flower-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100px;
+    height: 100px;
+    margin-top: -30px;
+    margin-left: -30px;
+}
+
+h1{
+    margin-left: 20px;
+}
+
+.text{
+    font-size: 20px;
+    margin: 35px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.mecho {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 80px;
+    height: 80px;
+    margin-top: 380px;
+    margin-left: 210px;
+}
+
+#final {
+    position: absolute;
+    bottom: 0;
+    margin-left: 57px;    
+    font-size: 10px;
+    font-weight: bold;
+    font-style: italic;
+    margin-bottom: 5px;
+}
